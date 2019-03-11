@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		909399C322360B33000B7124 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909399C222360B33000B7124 /* Place.swift */; };
+		90EB53A622370CFB0078E4C7 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB53A522370CFB0078E4C7 /* SearchViewController.swift */; };
 		90EB95BF2235FAF200AD0B3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB95BE2235FAF200AD0B3D /* AppDelegate.swift */; };
 		90EB95C12235FAF200AD0B3D /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB95C02235FAF200AD0B3D /* MapController.swift */; };
 		90EB95C42235FAF200AD0B3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90EB95C22235FAF200AD0B3D /* Main.storyboard */; };
@@ -14,9 +16,12 @@
 		90EB95C92235FAF300AD0B3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90EB95C82235FAF300AD0B3D /* Assets.xcassets */; };
 		90EB95CC2235FAF300AD0B3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90EB95CA2235FAF300AD0B3D /* LaunchScreen.storyboard */; };
 		90EB95D62235FB5400AD0B3D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90EB95D52235FB5400AD0B3D /* MapKit.framework */; };
+		90EB95DC2236062200AD0B3D /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EB95DB2236062200AD0B3D /* Artwork.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		909399C222360B33000B7124 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		90EB53A522370CFB0078E4C7 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		90EB95BB2235FAF100AD0B3D /* TipMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90EB95BE2235FAF200AD0B3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90EB95C02235FAF200AD0B3D /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
@@ -26,6 +31,7 @@
 		90EB95CB2235FAF300AD0B3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90EB95CD2235FAF300AD0B3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90EB95D52235FB5400AD0B3D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		90EB95DB2236062200AD0B3D /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +68,9 @@
 			children = (
 				90EB95BE2235FAF200AD0B3D /* AppDelegate.swift */,
 				90EB95C02235FAF200AD0B3D /* MapController.swift */,
+				90EB53A522370CFB0078E4C7 /* SearchViewController.swift */,
 				90EB95C22235FAF200AD0B3D /* Main.storyboard */,
+				90EB95DD2236063900AD0B3D /* Models */,
 				90EB95D32235FB0700AD0B3D /* Resources */,
 				90EB95C52235FAF200AD0B3D /* TipMap.xcdatamodeld */,
 			);
@@ -85,6 +93,15 @@
 				90EB95D52235FB5400AD0B3D /* MapKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90EB95DD2236063900AD0B3D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				90EB95DB2236062200AD0B3D /* Artwork.swift */,
+				909399C222360B33000B7124 /* Place.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,9 +180,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90EB53A622370CFB0078E4C7 /* SearchViewController.swift in Sources */,
 				90EB95C72235FAF200AD0B3D /* TipMap.xcdatamodeld in Sources */,
 				90EB95C12235FAF200AD0B3D /* MapController.swift in Sources */,
+				90EB95DC2236062200AD0B3D /* Artwork.swift in Sources */,
 				90EB95BF2235FAF200AD0B3D /* AppDelegate.swift in Sources */,
+				909399C322360B33000B7124 /* Place.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
